@@ -1,0 +1,43 @@
+/******************
+Desktop
+******************/
+
+@media (min-width: 768px){
+
+/******************
+Nav
+******************/ 
+    
+    header li {
+	font-size: 1.5em;
+    margin: 2%;
+    }
+
+    
+    
+ /******************
+About
+******************/ 
+    
+    .about{
+        height: 1150px;
+    }
+    
+    .ship-inn, .owners{
+        max-width: 45%;
+        margin: 2.5%;
+    }
+    
+    .ship-inn{
+        float: left;
+    }
+    
+    .owners{
+        float: right;
+    }
+    
+
+    
+    
+    
+}

@@ -1,0 +1,356 @@
+/******************
+#000 Black
+#062f4f Ink
+#003a43 Darkslategrey
+#813772 Posy
+#b82601 Embers
+******************/
+
+
+/******************
+Tag Styling
+******************/
+
+body {
+	background: linear-gradient(#fff 70%, #aaa);
+    font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p, a, li {
+	text-align: center;
+	margin-top: 0;
+	color: #062f4f;
+	letter-spacing: 1.2px;
+}
+
+h2 {
+	color: #b82601;
+}
+
+h3, h4 {
+	color: #003a43;
+}
+
+p {
+	line-height: 2;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+img {
+	display: block;
+	margin: auto;
+	padding: 10px 0 50px;
+	max-width: 100%;
+}
+
+section, footer {
+	max-width: 970px;
+	padding: 50px 0;
+	margin: auto;
+}
+
+li {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+iframe {
+	display: block;
+	margin: 50px auto;
+	max-width: 100%;
+	box-shadow: 0 2px 20px;
+}
+
+
+/******************
+Links
+******************/
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: slategrey;
+}
+
+a:hover {
+	color: #b82601;
+	border-bottom: 3px solid;
+}
+
+a:active {
+	color: #000;
+}
+
+
+/******************
+Header
+******************/
+
+header {
+	background: linear-gradient(#b82601, transparent 90%), linear-gradient( 0deg, #fff, transparent), #b82601 url("img/photo/ship-inn.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	padding-top: 20px;
+}
+
+header h1 {
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+header h2 {
+	font-weight: 700;
+	font-size: 1.25em;
+}
+
+nav {
+	color: #062f4f;
+	text-align: center;
+}
+
+nav a {
+	color: #062f4f;
+	padding: 5px;
+}
+
+header li {
+	font-size: 1.1em;
+	font-weight: 700;
+	display: inline-block;
+}
+
+header img {
+	margin: 50px auto;
+}
+
+
+/******************
+Award
+******************/
+
+.award {
+	background: linear-gradient(#fff, transparent 100%), linear-gradient( to top, #fff, transparent 100%), linear-gradient( to left, #fff, transparent 40%), linear-gradient( to right, #fff, transparent 40%), url("img/photo/bar-none.jpg");
+	background-size: cover;
+	width: 90%;
+	border: 0;
+	padding-top: 15%;
+}
+
+.award h2 {
+	font-size: 1.5em;
+}
+
+.award p {
+	font-style: italic;
+	font-size: 1.25em;
+	padding: 25px 10%;
+}
+
+.award-title {
+	padding-bottom: 50px;
+	border-bottom: 3px solid #b82601;
+}
+
+/******************
+Loyalty
+******************/
+
+.important {
+	max-width: 100%;
+	background: #b82601;
+	text-align: center;
+	border-top: 5px solid darkslategrey;
+	border-bottom: 5px solid darkslategrey;
+	margin-bottom: 5%;
+	box-shadow: 0 2px 20px;
+}
+
+.important a, .important p, .important h2 {
+	color: #fff;
+}
+
+.important h2 {
+	font-size: 1.25em;
+	padding: 0 50px;
+	display: inline-block;
+	border-bottom: 2px solid;
+}
+
+
+/******************
+Menu
+******************/
+
+.starters h2 {
+	max-width: 40%;
+	margin: auto;
+	font-size: 2em;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid;
+}
+
+.menu-break {
+	max-width: 15%;
+	margin: auto;
+	border-top: 2px solid #b82601;
+}
+
+.starters {
+	background: linear-gradient(#fff, transparent 100%), linear-gradient( to top, #fff, transparent 100%), linear-gradient( to left, #fff, transparent 40%), linear-gradient( to right, #fff, transparent 40%), url(img/photo/prawn-cocktail.jpg);
+	background-position: right;
+}
+
+.mains {
+	background: linear-gradient(#fff, transparent 100%), linear-gradient( to top, #fff, transparent 100%), linear-gradient( to left, #fff, transparent 40%), linear-gradient( to right, #fff, transparent 40%), url(img/photo/mains.jpg);
+	background-position: top;
+}
+
+.fromthesea {
+	background: linear-gradient(#fff, transparent 100%), linear-gradient( to top, #fff, transparent 100%), linear-gradient( to left, #fff, transparent 40%), linear-gradient( to right, #fff, transparent 40%), url(img/photo/fromthesea.jpg);
+	background-position: top;
+}
+
+.starters, .mains, .fromthesea {
+	width: 90%;
+}
+
+.starters, .mains {
+	border-bottom: 0;
+}
+
+
+/******************
+Events + Motorhome
+******************/
+
+.events {
+	background: linear-gradient(#fff, transparent 100%), linear-gradient( to top, #fff, transparent 100%), linear-gradient( to left, #fff, transparent 40%), linear-gradient( to right, #fff, transparent 40%), url("img/photo/celebrations.jpg");
+	border-bottom: 0;
+}
+
+.events h2, .motorhome h2, .about h2 {
+	max-width: 50%;
+	margin: auto;
+	font-size: 2em;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid;
+}
+
+.motorhome {
+	background: linear-gradient(#fff, transparent 100%), linear-gradient( to top, #fff, transparent 100%), linear-gradient( to left, #fff, transparent 40%), linear-gradient( to right, #fff, transparent 40%), url("img/photo/motorhome.jpg");
+}
+
+
+/******************
+About
+******************/
+
+.about h2 {
+	max-width: 40%;
+}
+
+.ship-inn, .owners {
+	margin: auto;
+	width: 90%;
+}
+
+.ship-inn img, .owners img {
+	padding: 0;
+	margin-bottom: 10%;
+	box-shadow: 0 15px 20px -10px;
+	border-radius: 5px;
+}
+
+
+/******************
+Contact
+******************/
+
+textarea {
+	width: 60%;
+	height: 20%;
+}
+
+
+/******************
+Callouts
+******************/
+
+.motorhome, form {
+	text-align: center;
+}
+
+textarea {
+	display: block;
+	margin: auto;
+}
+
+.callout {
+	display: inline-block;
+	padding: 30px 10px 5px;
+	font-size: 1.5em;
+	color: #b82601;
+	border-bottom: 3px solid;
+}
+
+.callout:hover {
+	color: #003a43;
+}
+
+.callout:active {
+	color: #000;
+}
+
+
+/******************
+Footer
+******************/
+
+.social {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.social img {
+	display: inline;
+	max-width: 50px;
+	padding-bottom: 20px;
+}
+
+footer li {
+	display: inline;
+	padding: 10px;
+}
+
+.social a:hover {
+	border-bottom: 0;
+}
+
+.social img:hover {
+	-webkit-filter: opacity(80%);
+}
+
+
+/******************
+Clear Fix
+******************/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
