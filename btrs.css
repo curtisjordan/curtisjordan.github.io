@@ -36,7 +36,7 @@ body { background: #757575; overflow-x: hidden; }
   transform: rotate(0deg) translateZ(1px);
 }
 
-.heading{
+.heading, .heading-mobile{
     font-family: roboto;
     color: #f5f5f5;
     position: absolute;
@@ -44,6 +44,10 @@ body { background: #757575; overflow-x: hidden; }
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+.heading-mobile{
+    font-size: 22px;
 }
 .container:hover .card,
 .back {
@@ -91,7 +95,21 @@ img {
     left: 50%;
 }
 
+ .heading-mobile{
+        display: none;
+    }
+
 @media (max-width:700px) {
   .card { transform: scale(.5); }
   .container:hover .card { transform: scale(.5) rotateY(-180deg) translateZ(1px); }
+   
+}
+
+@media (max-width:900px){
+ .heading{
+        display: none;
+    }
+    .heading-mobile{
+        display: block;
+    }
 }
